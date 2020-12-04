@@ -1,21 +1,36 @@
-# etlproject
+# ETL project
 
 GEORGIA TECH DATA VISUALIZATION BOOT CAMP
+
 GROUP 7 – PROJECT 2
- ETL DATA ANALYSIS PROJECT PROPOSAL
+
+ ETL DATA ANALYSIS PROJECT 
+ 
 December 5, 2020
-PARTICIPANTS: 
+
+PARTICIPANTS
+
  Carmen Grayson, Michael Klein, Javier Perez, and Robert Varalla
-SUMMARY:
+ 
+SUMMARY
+
 Will evaluate the correlation of the number of positive Covid-19 test results in each county and the 2020 Presidential Election for the state of Georgia.
+
 DATA SOURCES:
+
 Georgia Secretary of State Website
+
 https://results.enr.clarityelections.com/GA/105369/web.264614/#/access-to-races
+
 Georgia Department of Health 
+
 https://covid-hub.gio.georgia.gov/
-METHODOLOGY:
+
+METHODOLOGY
+
 We will evaluate, load, transform (merge& clean) and upload the given data sources. The data was acquired on 12/1/20.
-ETL:
+
+ETL
 The following recounts our step-by-step of importing and cleaning data in Jupyter Notebook, and subsequently exporting the cleaned dataframe to a SQL server, with the ability for the server to be accessed beyond the local machine of the creator. We began by importing environments for the code. This included the traditional Pandas module, as well as SQLAlchemy and a few others. Next, we imported dotenv and used the load_dotenv module to create a username and password variable to be used to log into the Postgres server. Following module import, our team read in our data files from the aforementioned sources, using the os module as well as the read_excel attribute from Pandas. Both of our datasets originated from .xlsx files. After importing the dataframes, we began the data cleaning process. Both of our datasets were complete upon download. No rows were removed, and the datasets contain no null values or rows. Most of the cleaning process involved the election data from this year. Mainly, the process involved the renaming of columns, and reformatting of the frame to simplify the headers. 
 After formatting column names and headers, the original header row from the imported dataset was removed with a df.drop command. We then reset the index of the dataframe to account for the dropped row, and to ensure that the county indices will match our COVID-19 dataset index. The next step was to join together our datasets. We merged the tables on the ‘County’ column, using the election dataframe index. This was an inner join. After the combination of tables, we performed some final data cleaning and made some cosmetic changes for digestibility and clarity. This process included renaming COVID and votes columns to provide clarity between the two values provided their close proximity within the dataframe. 
 
