@@ -1,0 +1,22 @@
+election_covid
+---
+county PK VARCHAR(30) 
+trump INT
+biden INT
+jorgensen INT
+total_county_votes INT
+confirmed_per100k FLOAT
+antigen_positive INT
+confirmed_deaths INT
+probable_deaths INT
+hospitalizations INT
+
+georgia_income
+---
+county PK VARCHAR(30) FK - election_covid.county
+2018 INT 
+confirmed_per100k FLOAT
+antigen_positive INT
+confirmed_deaths INT
+probable_deaths INT
+hospitalizations INT
