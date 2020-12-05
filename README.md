@@ -1,4 +1,5 @@
-﻿# ETL Project
+﻿
+# ETL Project
 
 ### GEORGIA TECH DATA VISUALIZATION BOOT CAMP
 
@@ -61,7 +62,8 @@ The next step was to join together our datasets. We merged the tables on the *Co
 ## APPENDIX
 
 >During the project development, different options in how to approach the design of the database was discussed. For the scope of the ETL project we decided to combine the tables as shown above.
->In case there's a need to make the database accessible and upload it to the cloud, we think the following design would be better and more scalable (see [Appendix](https://github.com/mklein1997/etlproject/tree/javier/Appendix)).
+>In case there's a need to make the database accessible and upload it to the cloud, we think the following design would be better and more scalable (see [Appendix](https://github.com/mklein1997/etlproject/tree/main/Appendix)).
 >
-> ![enter image description here](https://github.com/mklein1997/etlproject/blob/javier/Appendix/ERD/ERD_cloud_design.png?raw=True)
+> ![enter image description here](https://github.com/mklein1997/etlproject/blob/main/Appendix/ERD/ERD_cloud_design.png?raw=True)
  
+
