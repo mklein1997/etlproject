@@ -50,6 +50,7 @@ The next step was to join together our datasets. We merged the tables on the *Co
 >For some hypothetical analysis, we subsequently decided to add additional data to our database. We chose to gather some income data for GA. Average income for each county was imported and then combined with the same COVID data frame used previously. We then uploaded this to the database to allow for some additional levels of possible analysis.
 
 > We then updated the ERD to reflect the changes:
+>
 > ![enter image description here](https://github.com/mklein1997/etlproject/blob/main/ERD/ETL_ERD.png?raw=True)
 
 
@@ -59,6 +60,8 @@ The next step was to join together our datasets. We merged the tables on the *Co
 
 ## APPENDIX
 
-During the project development, different options in how to approach the design of the database was discussed. For the scope of the ETL project we decided to combine the tables as shown above.
-In case there's a need to make the database accessible and upload it to the cloud, we think the following design would be better and more scalable.
+>During the project development, different options in how to approach the design of the database was discussed. For the scope of the ETL project we decided to combine the tables as shown above.
+>In case there's a need to make the database accessible and upload it to the cloud, we think the following design would be better and more scalable (see [Appendix](https://github.com/mklein1997/etlproject/tree/javier/Appendix)).
+>
+> ![enter image description here](https://github.com/mklein1997/etlproject/blob/javier/Appendix/ERD/ERD_cloud_design.png?raw=True)
  
