@@ -17,6 +17,7 @@ Will evaluate the correlation of the number of positive Covid-19 test results in
 ## DATA SOURCE
 
 > [Georgia Secretary of State Website](https://results.enr.clarityelections.com/GA/105369/web.264614/#/access-to-races)
+>
 > [Georgia Department of Health](https://covid-hub.gio.georgia.gov/) 
 
 
