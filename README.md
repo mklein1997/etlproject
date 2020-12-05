@@ -53,6 +53,8 @@ The next step was to join together our datasets. We merged the tables on the *Co
 > ![enter image description here](https://github.com/mklein1997/etlproject/blob/main/ERD/ETL_ERD.png?raw=True)
 
 
->We loaded the final database into SQL because it is a relational database software.
+>The final database was loaded into SQL because it is a relational database software, and below you can find the process flowchart.
+> 
+> ![enter image description here](https://github.com/mklein1997/etlproject/blob/main/Flowchart/etlproject_flowchart.jpg?raw=True)
 
 
