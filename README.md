@@ -57,4 +57,8 @@ The next step was to join together our datasets. We merged the tables on the *Co
 > 
 > ![enter image description here](https://github.com/mklein1997/etlproject/blob/main/Flowchart/etlproject_flowchart.jpg?raw=True)
 
+## APPENDIX
 
+During the project development, different options in how to approach the design of the database was discussed. For the scope of the ETL project we decided to combine the tables as shown above.
+In case there's a need to make the database accessible and upload it to the cloud, we think the following design would be better and more scalable.
+ 
