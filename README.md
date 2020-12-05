@@ -31,7 +31,7 @@ The data was acquired on 12/01/2020.
 ## ETL
 >The following recounts our step-by-step of importing and cleaning data in [Jupyter Notebook](https://github.com/mklein1997/etlproject/blob/main/ETLProject.ipynb), and subsequently exporting the cleaned dataframe to a SQL server, with the ability for the server to be accessed beyond the local machine of the creator. 
 
->Beginning by importing environments for the code. This included the traditional Pandas module, as well as ```SQLAlchemye``` and a few others. Next, we imported the module  ```dotenv ```and used the ```load_dotenv```  to access our local environment and get the user and password to log into the Postgres server. 
+>Beginning by importing environments for the code. This included the traditional Pandas module, as well as ```SQLAlchemy``` and a few others. Next, we imported the module  ```dotenv ```and used the ```load_dotenv```  to access our local environment and get the user and password to log into the Postgres server. 
 Following module import, our team read in our data files from the aforementioned sources, using the ```os``` module as well as the ```read_excel``` attribute from Pandas. 
 The Excel files can be found in the folder [Resources](https://github.com/mklein1997/etlproject/tree/main/Resources).
 Importing the dataframes, we began the data cleaning process. Both of our datasets were complete upon download. No rows were removed, and the datasets contain no null values or rows. Most of the cleaning process involved the election data from this year. Mainly, the process involved the renaming of columns, and reformatting of the frame to simplify the headers. 
